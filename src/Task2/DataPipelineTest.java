@@ -50,7 +50,7 @@ public class DataPipelineTest {
     public void testMissingHeader() throws IOException {
         DataPipelineTester tester = new DataPipelineTester();
         String noHeaderFilePath = "src/test/no_header_data.csv";
-        assertFalse(tester.validateData(noHeaderFilePath), "A file without a header should be invalid.");
+        assertFalse(tester.validateData(noHeaderFilePath), "A file without a header should be absolute  invalid.");
     }
     
     

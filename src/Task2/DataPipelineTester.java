@@ -10,6 +10,8 @@ public class DataPipelineTester {
         if (!header.equals("id,name,age")) { 
             return false;
         }
+        
+        
         String line;
         while ((line = reader.readLine()) != null) {
             String[] fields = line.split(",");
